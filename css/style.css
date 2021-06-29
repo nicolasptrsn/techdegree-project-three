@@ -115,6 +115,10 @@ button {
   color: white;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 /* Why does the button expand when the textarea is enlarged? */
 
 footer {
