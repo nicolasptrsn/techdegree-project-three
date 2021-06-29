@@ -55,9 +55,9 @@ select {
     padding-top: 15px;
     padding-bottom: 15px;
     margin-bottom: 15px;
-    background-color: lightgrey;
+    background-color: whitesmoke;
     border-radius: 5px;
-    border: solid 2px lightgrey;
+    border: solid 2px whitesmoke;
     width: 100%;
 }
 
@@ -91,8 +91,8 @@ textarea {
   height: 100px;
   margin-top: 10px;
   border-radius: 5px;
-  border: 2px solid lightgrey;
-  background-color: lightgrey;
+  border: 2px solid whitesmoke;
+  background-color: whitesmoke;
 }
 
 button {
@@ -119,7 +119,6 @@ footer {
   form {
     max-width: 60%;
     margin: 0 auto;
-
   }
 
   .line-1,
@@ -132,6 +131,27 @@ footer {
     max-width: 60%;
     text-align: center;
     margin: 0 auto;
+  }
+
+  .flex-pair {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .flex-pair label {
+    flex-basis: 40%;
+    align-self: center;
+    padding: 0;
+  }
+
+  .flex-pair input,
+  .flex-pair select {
+    flex-basis: 60%;
+  }
+
+  #zip {
+    max-width: 25%;
   }
 
 }
