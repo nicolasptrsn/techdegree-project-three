@@ -5,7 +5,7 @@
 
 /* Header styles  */
 
-header {
+h1 {
   background-color: navy;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -13,6 +13,8 @@ header {
   text-transform: uppercase;
   color: white;
 }
+
+/* How do I make a full-width header with no white space on the edges? */
 
 h2 {
   color: navy;
@@ -41,9 +43,74 @@ fieldset {
   border: 2px solid black;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  margin-top: 20px;
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    background-color: lightgrey;
+    border-radius: 5px;
+    border: solid 2px lightgrey;
+    width: 100%;
 }
 
+/* How do I make the zip box smaller without causing it to break back to the previous line? */
+
+input[type="text"]:hover,
+input[type="tel"]:hover,
+input[type="email"]:hover,
+select:hover,
+textarea:hover {
+    background-color: transparent;
+}
+
+::placeholder {
+  text-align: end;
+}
+
+/* How do I space the text so it stays in the container while in italix? */
+
+.container-2 {
+  line-height: 2;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 2px solid lightgrey;
+  background-color: lightgrey;
+}
+
+button {
+  width: 100%;
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 20px;
+  background: firebrick;
+  font-size: 1rem;
+  color: white;
+}
+
+/* Why does the button expand when the textarea is enlarged? */
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-style: italic;
+}
+
+@media (min-width: 768px) {
+  .container {
+    display: flex;
+  }
+}
