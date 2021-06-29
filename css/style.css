@@ -34,6 +34,7 @@ legend {
   font-size: 1.5rem;
   font-weight: 400;
   margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 fieldset {
@@ -111,8 +112,22 @@ footer {
 }
 
 @media (min-width: 768px) {
+
   form {
     max-width: 60%;
     margin: 0 auto;
   }
+
+  .line-1,
+  .line-2 {
+    max-width: 60%;
+  }
+
+  h2,
+  h3 {
+    max-width: 60%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
 }
