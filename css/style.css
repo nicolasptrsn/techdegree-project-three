@@ -110,7 +110,8 @@ footer {
 }
 
 @media (min-width: 768px) {
-  .container {
-    display: flex;
+  form {
+    max-width: 60%;
+    margin: 0 auto;
   }
 }
