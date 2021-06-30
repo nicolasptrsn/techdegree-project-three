@@ -58,6 +58,7 @@ select {
     border-radius: 5px;
     border: solid 2px whitesmoke;
     width: 100%;
+    padding-right: 15px;
 }
 
 input[type="text"]:hover,
@@ -70,6 +71,7 @@ textarea:hover {
 
 input::placeholder {
   text-align: end;
+  font-style: italic;
 }
 
 /* How do I space the text so it stays in the container while in italix? */
