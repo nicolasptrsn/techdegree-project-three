@@ -17,8 +17,6 @@ h1 {
   margin-right: -10px;
 }
 
-/* How do I make a full-width header with no white space on the edges? */
-
 h2 {
   color: darkslategray;
   text-align: center;
@@ -62,8 +60,6 @@ select {
     width: 100%;
 }
 
-/* How do I make the zip box smaller without causing it to break back to the previous line? */
-
 input[type="text"]:hover,
 input[type="tel"]:hover,
 input[type="email"]:hover,
@@ -72,7 +68,7 @@ textarea:hover {
     background-color: transparent;
 }
 
-::placeholder {
+input::placeholder {
   text-align: end;
 }
 
@@ -119,13 +115,13 @@ button:hover {
   cursor: pointer;
 }
 
-/* Why does the button expand when the textarea is enlarged? */
-
 footer {
   text-align: center;
   margin-top: 20px;
   font-style: italic;
 }
+
+/* Media Queries */
 
 @media (min-width: 768px) {
 
